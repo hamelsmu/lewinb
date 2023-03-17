@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://hamelsmu.github.io',
                 'git_url': 'https://github.com/hamelsmu/lewinb',
                 'lib_path': 'lewinb'},
-  'syms': {'lewinb.core': {'lewinb.core.foo': ('core.html#foo', 'lewinb/core.py')}}}
+  'syms': { 'lewinb.core': { 'lewinb.core._get_query': ('core.html#_get_query', 'lewinb/core.py'),
+                             'lewinb.core._mk_query': ('core.html#_mk_query', 'lewinb/core.py'),
+                             'lewinb.core.get_id': ('core.html#get_id', 'lewinb/core.py'),
+                             'lewinb.core.merge_pr': ('core.html#merge_pr', 'lewinb/core.py')}}}
