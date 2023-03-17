@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "lewinb",
+    "section": "",
+    "text": "pip install lewinb"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "lewinb",
+    "section": "How to use",
+    "text": "How to use\nUse the lewinb_merge cli command!\n\n!lewinb_merge -h\n\nusage: lewinb_merge [-h] owner repo pull_number\n\npositional arguments:\n  owner\n  repo\n  pull_number\n\noptional arguments:\n  -h, --help   show this help message and exit"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nget_id\n\n get_id (owner, repo, pull_number)\n\nGet the node id of the PR\nYou can get the node id (which is used in graphql like this):\n\nget_id('hamelsmu', 'lewinb', 3)\n\n'PR_kwDOJKp2GM5MReJZ'\n\n\n\nassert 1 == 1\n\n\nsource\n\n\nmerge_pr\n\n merge_pr (owner, repo, pull_number)"
+  }
+]
