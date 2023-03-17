@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "lewinb"
+  site-url: "https://hamelsmu.github.io/lewinb"
+  description: "Close pull requests on GitHub"
+  repo-branch: main
+  repo-url: "https://github.com/hamelsmu/lewinb"
